@@ -1,0 +1,41 @@
+{
+  "name": "chordo_server",
+  "version": "1.0.0",
+  "description": "A tool that takes links or files and creates uniform chord sheets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnglederLucas/Chordo.git"
+  },
+  "keywords": [
+    "chords",
+    "tabs",
+    "band",
+    "music"
+  ],
+  "author": "Engleder Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnglederLucas/Chordo/issues"
+  },
+  "homepage": "https://github.com/EnglederLucas/Chordo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.3",
+    "chord-magic": "^2.1.1",
+    "chord-transposer": "^2.0.2",
+    "cors": "^2.8.5",
+    "dom-parser": "^0.1.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "html-pdf": "^2.2.0",
+    "markdown-pdf": "^9.0.0",
+    "npm": "^6.7.0",
+    "tmp": "0.0.33",
+    "xmlserializer": "^0.6.1"
+  }
+}
